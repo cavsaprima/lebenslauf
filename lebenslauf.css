@@ -1,0 +1,585 @@
+
+
+* 
+{
+  box-sizing: border-box;
+}
+
+.content
+{
+margin: auto;
+max-width: 1000px;
+background-color: #bddbf5;
+}
+.seite 
+{
+  display: grid;
+  font-family: arial;
+  margin: auto;
+  background-color: #ebeced;
+  padding: 10px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+  grid-template-areas:
+        "header"
+        "name"
+        "bord"
+        "menu"
+        "datum"
+        "main"  
+        "down"
+        "marg"
+        "datu1"
+        "main1"  
+        "down1"
+        "marg1"
+        "datum2"
+        "main2"  
+        "down2"
+        "marg2"
+        "datum3"
+        "main3"  
+        "down3"
+        "marg3"
+        "datum4"
+        "main4"  
+        "down4"
+        "marg4"
+        "datum5"
+        "main5"  
+        "down5"
+        "marg5"
+        "datum6"
+        "main6"  
+        "down6"
+        "bord2"
+        "datum7"
+        "main7"  
+        "down7"
+        "marg6"
+        "datum8"
+        "main8"  
+        "down8"
+        "bord3"
+			"datum8a"
+        "main8a"
+         "marg7"
+        "datum8b"
+        "main8b"
+        "bord4"
+      
+        "footer";
+}
+.btn {
+ 
+  border: none;
+  color: white;
+  padding: 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.download {background-image: url("pf.png");  background-repeat: no-repeat;
+  background-size: 60px 60px;border: 2px solid white;} 
+.download:hover {background-image: url("pf2.png");  background-repeat: no-repeat;
+  background-size: 60px 60px;}
+
+ a:link 
+ {
+  text-decoration: none;
+  color: #313131;
+}
+#item-61
+{
+  grid-column: marg;
+  grid-row: marg;
+height: 10px;
+background-color: #ebeced
+
+}
+#item-62
+{
+  grid-column: marg2;
+  grid-row: marg2;
+height: 10px;
+background-color: #ebeced
+
+}
+#item-63
+{
+  grid-column: marg3;
+  grid-row: marg3;
+height: 10px;
+background-color: #ebeced
+
+}
+#item-64
+{
+  grid-column: marg4;
+  grid-row: marg4;
+height: 10px;
+background-color: #ebeced
+
+}
+#item-65
+{
+  grid-column: marg5;
+  grid-row: marg5;
+height: 10px;
+background-color: #ebeced
+
+}
+#item-66
+{
+  grid-column: marg6;
+  grid-row: marg6;
+height: 10px;
+background-color: #ebeced
+
+}
+#item-67
+{
+  grid-column: marg7;
+  grid-row: marg7;
+height: 10px;
+background-color: #ebeced
+
+}
+
+#item-1 {
+  grid-column: header;
+  grid-row: header;
+  background-color: white;
+  color: #313131;
+  border-radius: 15px 15px 0px 0px;
+  text-align: right;
+  font-size: 170%;
+  padding-top: 20px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px; 
+  
+ } 
+#item-6 {
+  grid-column: name;
+  grid-row: name;
+  background-color: white;
+   color: #313131;
+   text-align: right;
+  padding:10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+ 
+ } 
+#item-3 {
+  grid-column: menu;
+  grid-row: menu;
+ 
+ 
+  
+  text-align: center;
+  padding:10px;
+  margin-bottom: 10px;
+  
+ }
+  
+   #item-31 {
+  grid-column: datum;
+  grid-row: datum;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+
+ 
+ } #item-41 {
+  grid-column: main;
+  grid-row: main;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ 
+ 
+ } 
+  #item-51 {
+  grid-column: down;
+  grid-row: down;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ 
+ }
+#item-32 {
+  grid-column: datum2;
+  grid-row: datum2;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+
+ 
+ } 
+ #item-42 {
+  grid-column: main2;
+  grid-row: main2;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ 
+
+ } 
+  #item-52 {
+  grid-column: down2;
+  grid-row: down2;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ 
+ }
+ #item-33 {
+  grid-column: datum3;
+  grid-row: datum3;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+
+ 
+ } 
+ #item-43 {
+  grid-column: main3;
+  grid-row: main3;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ 
+ } 
+  #item-53 {
+  grid-column: down3;
+  grid-row: down3;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+  
+ 
+ }
+ #item-34 {
+  grid-column: datum4;
+  grid-row: datum4;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+
+ 
+ } 
+ #item-44 {
+  grid-column: main4;
+  grid-row: main4;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ 
+ } 
+  #item-54 {
+  grid-column: down4;
+  grid-row: down4;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ }
+ #item-35 {
+  grid-column: datum5;
+  grid-row: datum5;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-45 {
+  grid-column: main5;
+  grid-row: main5;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ } 
+  #item-55 {
+  grid-column: down5;
+  grid-row: down5;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ }
+ #item-36 {
+  grid-column: datum6;
+  grid-row: datum6;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-46 {
+  grid-column: main6;
+  grid-row: main6;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ } 
+  #item-56 {
+  grid-column: down6;
+  grid-row: down6;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ }
+ 
+ #item-37 {
+  grid-column: datum7;
+  grid-row: datum7;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-47 {
+  grid-column: main7;
+  grid-row: main7;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ } 
+  #item-57 {
+  grid-column: down7;
+  grid-row: down7;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ }
+  
+ #item-38 {
+  grid-column: datum8;
+  grid-row: datum8;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-48 {
+  grid-column: main8;
+  grid-row: main8;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:20px;
+ } 
+  #item-58 {
+  grid-column: down8;
+  grid-row: down8;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ }
+  #item-5 {
+  grid-column: footer;
+  grid-row: footer;
+   line-height: 1.5;
+  background-color: white;
+  color: #313131;
+  border-radius: 0px 0px 15px 15px;
+  text-align: center;
+  padding:10px;
+  margin-bottom: 10px;
+  
+ }
+
+
+#item-11
+ {
+   grid-column: bord;
+  grid-row: bord;
+  font-size: 130%;
+  margin-top: 10px;
+ margin-bottom: 10px;
+   background-color: #ebeced;
+   border-bottom: 2px solid  #313131;
+ }
+  #item-38a {
+  grid-column: datum8a;
+  grid-row: datum8a;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-48a {
+  grid-column: main8a;
+  grid-row: main8a;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+  }
+  #item-38b {
+  grid-column: datum8b;
+  grid-row: datum8b;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-48b {
+  grid-column: main8b;
+  grid-row: main8b;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+  }
+  #item-38c {
+  grid-column: datum8c;
+  grid-row: datum8c;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+ 
+ } 
+ #item-48c {
+  grid-column: main8c;
+  grid-row: main8c;
+  background-color: grey;
+  color: white;
+  
+  text-align: center;
+  padding:10px;
+  }
+ #item-14
+ {
+   grid-column: bord4;
+  grid-row: bord4;
+  margin-top: 10px;
+ margin-bottom: 10px;
+   background-color: #ebeced;
+   border-bottom: 2px solid  #313131;
+ }
+ #item-12
+ {
+   grid-column: bord2;
+  grid-row: bord2;
+  font-size: 130%;
+  margin-top: 10px;
+ margin-bottom: 10px;
+   background-color: #ebeced;
+   border-bottom: 2px solid  #313131;
+ }
+ #item-13
+ {
+   grid-column: bord3;
+  grid-row: bord3;
+  font-size: 130%;
+  margin-top: 10px;
+ margin-bottom: 10px;
+   background-color: #ebeced;
+   border-bottom: 2px solid  #313131;
+ }
+
+
+@media only screen and (min-width: 600px) {
+ 
+.seite 
+{
+   display: grid;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ebeced;
+  padding: 10px;
+  font-family: arial;
+  grid-template-columns: 150px 1fr 200px;
+  grid-template-rows: auto;
+  
+  grid-template-areas:
+        "header header header"
+		  "name name name"
+		  "bord bord bord"
+        "datum main down"
+        "marg marg marg"
+        "datum2 main2 down2"
+        "marg2 marg2 marg2"
+        "datum3 main3 down3"
+        "marg3 marg3 marg3"
+        "datum4 main4 down4"
+        "marg4 marg4 marg4"
+        "datum5 main5 down5"
+        "marg5 marg5 marg5"
+        "datum6 main6 down6"
+       "bord2 bord2 bord2"
+       "datum7 main7 down7"
+       "marg6 marg6 marg6"
+       "datum8 main8 down8"
+       "bord3 bord3 bord3"
+       
+       "datum8a main8a main8a"
+       "marg7 marg7 marg7"
+       "datum8b main8b main8b"
+       "bord4 bord4 bord4"
+       
+		  "footer footer footer"; 
+}
+  }  

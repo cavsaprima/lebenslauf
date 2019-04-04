@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="lebenslauf.css" media="screen" />
+<title>LEBENSLAUF</title>
+</head>
+<body>
+<?php $page='lebenslauf';?>
+<div class="seite">
+<div id="item-1">
+Lebenslauf
+</div>
+<div id="item-6">
+Monika Motaczynska
+</div>
+<div id="item-11"> Berufliche Tätigkeiten und Ausbildung
+</div>
+<div id="item-31">
+<h2>2016 - 2019</h2>
+</div>
+<div id="item-41">
+<b>Bürotechnik Höhne e.K. </b></br>
+Ausbildung zur IT-System-Kauffrau mit Übernahme im Ferbraur 2019
+</div>
+<div id="item-51">
+<a href="ausbildung.pdf" download><button class="btn download"></button></a>
+</div>
+<div id="item-61"></div>
+<div id="item-32">
+<h2>2013 - 2016</h2>
+</div>
+<div id="item-42">
+<b>Epsilon Verlagsmarketing GmbH</b></br>
+ Call Center Agent
+</div>
+<div id="item-52">
+<a href="epsilon.pdf" download><button class="btn download"></button></a>
+</div>
+<div id="item-62"></div>
+<div id="item-33">
+<h2>August 2013</h2>
+</div>
+<div id="item-43">
+<b>Standleitungen Hof </b></br>
+Vertretung, Erfassung von Angeboten
+</div>
+<div id="item-53">
+
+</div>
+<div id="item-63"></div>
+<div id="item-34">
+<h2>Juli 2013</h2>
+</div>
+<div id="item-44">
+<b>FME Frachtmanagement Europa GmbH</b></br>
+Probezeit als Frachtenmakler
+</div>
+<div id="item-54">
+
+</div>
+<div id="item-64"></div>
+<div id="item-35">
+<h2>2012 - 2013</h2>
+</div>
+<div id="item-45">
+<b>Spedition: Usługi Transportowe Krajowe i Miedzynarodowe Krzysztof Ostaszewski</b></br>
+Disponentin, Kundenbetreuerin
+</div>
+<div id="item-55">
+
+</div>
+<div id="item-65"></div>
+<div id="item-36">
+<h2>2011 - 2012</h2>
+</div>
+<div id="item-46">
+<b>Spedition: Trasport i Spedycja „Stypiński”</b></br>
+Disponentin
+</div>
+<div id="item-56">
+
+</div>
+<div id="item-12">Schulische Laufbahn
+</div>
+
+<div id="item-37">
+<h2>2005 - 2010</h2>
+</div>
+<div id="item-47">
+<b>Universität Wrocław</b></br>
+Germanistik-Studium mit Bachelor-Abschluss und abgebrochenes Philosophie-Studium
+</div>
+<div id="item-57">
+<a href="studium.pdf" download><button class="btn download"></button></a>
+</div>
+<div id="item-66"></div>
+<div id="item-38">
+<h2>2002 - 2005</h2>
+</div>
+<div id="item-48">
+<b>I Liceum Głogów</b></br>
+(ähnlich dem deutschen Gymnasium) Schwerpunkt Geisteswissenschaften, Abitur
+</div>
+<div id="item-58">
+<a href="liceum.pdf" download><button class="btn download"></button></a>
+</div>
+<div id="item-13">Kenntnisse 
+</div>
+
+<div id="item-38a">
+<h2>Sprachen</h2>
+</div>
+<div id="item-48a">
+<b>Polnisch: Muttersprache</b></br></br>
+<b>Deutsch: verhandlungssicher</b></br></br>
+<b>Englisch: konversationssicher</b></br>
+</div>
+<div id="item-67"></div>
+<div id="item-38b">
+<h2>Kenntnisse</h2>
+</div>
+<div id="item-48b">
+<b>Grundkentnnisse erworben im Rahmen der Berufsausbildung: C++, HTML, CSS, PHP, SQL</b></br></br>
+<b>Betriebssysteme: Windows, Linux</b></br></br>
+<b>Diverse Software: Speditionssoftware, Verwatungssoftware, SAP, Office Produkte etc.</b></br>
+</div>
+<div id="item-14"> 
+</div>
+
+<div id="item-5">
+Bewerbung um einen Ausbildungsplatz als Fachinformatiker für Anwendungsentwicklung
+</div></div>
+</body>
+</html>
